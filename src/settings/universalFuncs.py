@@ -6,6 +6,7 @@ import sys
 def initScreen():
     screen = pygame.display.set_mode(UV.SIZESCREEN, pygame.FULLSCREEN)
 
+# Function to Init the Main Loop
 def initLoop():
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
