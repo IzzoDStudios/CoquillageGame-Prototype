@@ -1,6 +1,9 @@
-from settings import universalVariables as UV
+from src import universalVariables as UV
 import pygame
 import sys
+
+# Init Pygame
+pygame.init()
 
 # Function to Init the Screen
 def initScreen():
@@ -12,3 +15,5 @@ def initLoop():
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
+
+# Function to Draw all Sprites
