@@ -5,4 +5,4 @@ import  pygame
 pygame.init()
 
 # Sprites Group
-allSprites = pygame.sprite.Group(SP.pointer)
+allSprites = pygame.sprite.Group(SP.spritesClass)

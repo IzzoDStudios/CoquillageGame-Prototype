@@ -1,5 +1,5 @@
-from classGame import universalVariables as UV
-from classGame import universalFuncs as UFS
+from src import universalVariables as UV
+from src import universalFuncs as UFS
 import pygame
 import sys
 
