@@ -1,4 +1,4 @@
-from src import universalVariables as UV
+from classGame import universalVariables as UV
 import pygame
 import sys
 
