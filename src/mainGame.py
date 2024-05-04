@@ -15,3 +15,9 @@ def initGame():
     # My Loop
     while UV.run:
         UFS.initLoop() # The Function to Init Main Loop
+
+    # Fill the Screen
+    UV.screen.fill(UV.WHITE)
+    
+    # Update the Code of the Game Constantly
+    pygame.display.update()

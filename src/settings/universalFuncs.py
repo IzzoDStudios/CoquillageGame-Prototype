@@ -4,7 +4,7 @@ import sys
 
 # Function to Init the Screen
 def initScreen():
-    screen = pygame.display.set_mode(UV.SIZESCREEN, pygame.FULLSCREEN)
+    UV.screen
 
 # Function to Init the Main Loop
 def initLoop():
