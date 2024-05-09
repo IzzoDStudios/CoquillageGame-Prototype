@@ -1,3 +1,4 @@
+from src.sprites.spritesVariables import myPointer
 from src import universalVariables as UV
 from src import universalFuncs as UFS
 import pygame
@@ -18,6 +19,10 @@ def initGame():
 
         # Fill the Screen
         UV.screen.fill(UV.WHITE)
+
+        mousepos = pygame.mouse.get_pos()
+
+        myPointer.rect.center = mousepos
 
         # Update the Code of the Game Constantly
         pygame.display.flip()
