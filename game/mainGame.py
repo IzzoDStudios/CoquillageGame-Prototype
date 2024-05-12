@@ -2,7 +2,6 @@ from src import universalVariables as UV
 from src import universalFuncs as UFS
 from src import spritesModule as SM
 import pygame
-import sys
 
 # Init PyGame
 pygame.init()
@@ -16,7 +15,7 @@ def initGame():
     # My Loop
     while UV.run:
         UFS.initLoop() # The Function to Init Main Loop
-        
+
         # Fill the Screen whit White Color
         UV.screen.fill(UV.WHITE)
 
