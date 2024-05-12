@@ -1,6 +1,6 @@
-from src.sprites.spritesVariables import myPointer
 from src import universalVariables as UV
 from src import universalFuncs as UFS
+from src import spritesModule as SM
 import pygame
 import sys
 
@@ -16,16 +16,12 @@ def initGame():
     # My Loop
     while UV.run:
         UFS.initLoop() # The Function to Init Main Loop
-
-        # Fill the Screen
+        
+        # Fill the Screen whit White Color
         UV.screen.fill(UV.WHITE)
 
-        mousepos = pygame.mouse.get_pos()
-
-        myPointer.rect.center = mousepos
+        # Function to Draw the Pointer Image 
+        UFS.drawPointerGame()
 
         # Update the Code of the Game Constantly
-        pygame.display.flip()
-
-
-initGame()
+        pygame.display.update()

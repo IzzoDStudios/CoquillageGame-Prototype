@@ -1,3 +1,4 @@
+from src import spritesModule as SM
 from src import universalVariables as UV
 import pygame
 import sys
@@ -16,4 +17,12 @@ def initLoop():
             pygame.quit()
             sys.exit()
 
-# Function to Draw all Sprites
+# Function to Draw the Pointer 
+def drawPointerGame():
+    # Set and Get Pointer and Mouse Position
+    mousepos = pygame.mouse.get_pos() # Whe Get the Mouse Pointer Position
+    pointerX = mousepos[0] - 244 # Position X of the Mouse Pointer - 244 (This is to center the image from the pointer to the mouse pointer)
+    pointerY = mousepos[1] - 255 # Position Y of the Mouse Pointer - 255 (This is to center the image from the pointer to the mouse pointer)
+
+    # Draw the Pointer in the Screen.
+    UV.screen.blit(SM.mypointer.image, (pointerX, pointerY)) #Structure: (Where will the image be drawn?, (Posiion of Drawing))
