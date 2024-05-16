@@ -1,5 +1,5 @@
 from mainGame import initGame
 
-# My Game (x)
+# My Game (x).
 if __name__ == "__main__":
     initGame()
