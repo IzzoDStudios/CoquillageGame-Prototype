@@ -21,8 +21,8 @@ def initLoop():
 def drawPointerGame():
     # Set and Get Pointer and Mouse Position
     mousepos = pygame.mouse.get_pos() # Whe Get the Mouse Pointer Position
-    pointerX = mousepos[0] - 244 # Position X of the Mouse Pointer - 244 (This is to center the image from the pointer to the mouse pointer)
-    pointerY = mousepos[1] - 255 # Position Y of the Mouse Pointer - 255 (This is to center the image from the pointer to the mouse pointer)
+    pointerX = mousepos[0] - 120 # Position X of the Mouse Pointer - 244 (This is to center the image from the pointer to the mouse pointer)
+    pointerY = mousepos[1] - 130 # Position Y of the Mouse Pointer - 255 (This is to center the image from the pointer to the mouse pointer)
 
     # Draw the Pointer in the Screen.
     UV.screen.blit(SM.mypointer.image, (pointerX, pointerY)) #Structure: (Where will the image be drawn?, (Posiion of Drawing))
