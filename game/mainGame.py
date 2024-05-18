@@ -17,7 +17,7 @@ def initGame():
         UFS.initLoop() # The Function to Init Main Loop.
 
         # Fill the Screen whit White Color.
-        UV.screen.fill(UV.WHITE)
+        UV.screen.fill(UV.GREEN)
 
         # Function to Draw the Pointer Image .
         UFS.drawPointerGame()

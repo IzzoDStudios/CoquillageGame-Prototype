@@ -14,6 +14,7 @@ pygame.display.set_caption(screenName) # Here i Put the Name Previously Init.
 # Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+GREEN = (41, 84, 26)
 
 # Detect if the Player Close the Screen.
 run = True
