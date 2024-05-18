@@ -17,6 +17,10 @@ def initLoop():
             pygame.quit()
             sys.exit()
 
+# Function to Assign the Amount of Fps.
+def assignFps(*, fpsNum):
+    UV.FPS.tick(fpsNum) # Assing the Fps.
+
 # Function to Draw the Pointer 
 def drawPointerGame():
     # Set and Get Pointer and Mouse Position.

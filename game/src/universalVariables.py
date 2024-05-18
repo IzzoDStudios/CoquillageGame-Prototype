@@ -11,7 +11,10 @@ screenName = "Coquillage Project" # That´s the Name who the Screen Will Have.
 screen = pygame.display.set_mode(SIZESCREEN, pygame.FULLSCREEN) # Here I Only Init my Screen Variable.
 pygame.display.set_caption(screenName) # Here i Put the Name Previously Init.
 
-# Colors
+# Fps Variable
+FPS = pygame.time.Clock()
+
+# Colors.
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (41, 84, 26)

@@ -19,8 +19,11 @@ def initGame():
         # Fill the Screen whit White Color.
         UV.screen.fill(UV.GREEN)
 
-        # Function to Draw the Pointer Image .
+        # The Function to Draw the Pointer Image .
         UFS.drawPointerGame()
 
         # Update the Code of the Game Constantly.
         pygame.display.update()
+
+        # The Function to Assign the Amount of Fps.
+        UFS.assignFps(fpsNum=60) # Assign the Fps on 60.
